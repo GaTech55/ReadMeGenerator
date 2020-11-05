@@ -1,6 +1,6 @@
-# My amazing project!
+# Title of project
 
-  ![Github license](https://img.shields.io/badge/license-APACHE_2.0-green.svg)
+  ![Github license](https://img.shields.io/badge/license-BSD_3-green.svg)
 
   ## Table of Contents
   
@@ -24,19 +24,19 @@
   
   ## Installation
   
-  This application is covered under the Install this way license. 
+  This application is covered under the install instructions license. 
   
   ## Usage
   
-  Use the project this way please.
+  Use it like this
   
   ## License
   
-  APACHE_2.0
+  BSD_3
   
   ## Contributing
   
-  A bunch of people
+  A lot of people
 
   ## Tests
   
