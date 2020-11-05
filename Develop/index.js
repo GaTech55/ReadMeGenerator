@@ -3,12 +3,14 @@ const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
 const utils = require("util");
 
-const writeFileAsync = utils.promisify(fs.writeFile);
-
 // array of questions for user
-// const questions = [];
 const questionsPrompt = () =>
   inquirer.prompt([
+    {
+      type: "input",
+      name: "fullName",
+      message: "What is your full name?",
+    },
     {
       type: "input",
       name: "title",
@@ -19,26 +21,54 @@ const questionsPrompt = () =>
       name: "description",
       message: "What is your project description?",
     },
+    {
+      type: "input",
+      name: "installation",
+      message: "What are the instructions for installation?",
+      default: "npm i ...",
+    },
+    {
+      type: "input",
+      name: "usage",
+      message: "What is the usage information for this project?",
+    },
+    {
+      type: "list",
+      name: "license",
+      message: "Please select your license:",
+      choices: ["No License", "BSD 3", "APACHE 2.0", "MIT", "GPL 3.0"],
+    },
+    {
+      type: "input",
+      name: "contributing",
+      message: "Who contributed to this project?",
+    },
+    {
+      type: "input",
+      name: "tests",
+      message: "What are the test instructions?",
+    },
+    {
+      type: "input",
+      name: "github",
+      message: "What is your GitHub username?",
+    },
+    {
+      type: "input",
+      name: "email",
+      message: "What is your email address?",
+    },
   ]);
 
 // function to write README file
-
-// function writeToFile("README.md", "utf8", data, (err) => {
-//   if (err) throw err;
-//   console.log("Successfully wrote README file.");
-// });
+const writeFileAsync = utils.promisify(fs.writeFile);
 
 // function to initialize program
-// function init() {}
-
 const init = async () => {
   try {
     const questions = await questionsPrompt();
-
     const data = generateMarkdown(questions);
-
     await writeFileAsync("README.md", data);
-
     console.log("Successfully wrote to README.md");
   } catch (err) {
     console.log(err);

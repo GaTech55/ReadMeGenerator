@@ -2,9 +2,7 @@
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  # WeatherDashboard
-
-  David K. Brown's Weather Dashboard
+  ${data.fullName}'s ${data.title} Project
   
   ## Table of Contents
   
@@ -24,7 +22,7 @@ function generateMarkdown(data) {
   
   ## Description
   
-  This website was created to provide a traveler the ability to see the weather outlook for multiple cities so that they can plan their trip accordingly. The website retrieves data from the Open Weather Map website using a custom API along with an assigned API Key. The code used in this website dynamically updates HTML and CSS within the webpage.
+  ${data.description}
   
   ## Screenshots
   
