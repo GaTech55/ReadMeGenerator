@@ -36,7 +36,7 @@ const questionsPrompt = () =>
       type: "list",
       name: "license",
       message: "Please select your license:",
-      choices: ["No License", "BSD 3", "APACHE 2.0", "MIT", "GPL 3.0"],
+      choices: ["No License", "BSD_3", "APACHE_2.0", "MIT", "GPL_3.0"],
     },
     {
       type: "input",
