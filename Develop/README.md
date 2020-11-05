@@ -1,9 +1,7 @@
-# 
+# My amazing project!
 
   ![Github license](https://img.shields.io/badge/license-APACHE_2.0-green.svg)
 
-  's  Project
-  
   ## Table of Contents
   
   - [Description](#description)
@@ -22,15 +20,15 @@
   
   ## Description
   
-  
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla porro fuga suscipit omnis, cum ratione illum impedit et, neque delectus ipsa ullam modi consequuntur eius earum provident animi in iusto veritatis accusamus laborum excepturi. Nesciunt corporis maxime cupiditate dignissimos officiis recusandae nisi vero doloremque ullam sed atque debitis eum excepturi voluptate incidunt, sapiente odit delectus?
   
   ## Installation
   
-  npm i ...
+  This application is covered under the Install this way license. 
   
   ## Usage
   
-  
+  Use the project this way please.
   
   ## License
   
@@ -38,13 +36,17 @@
   
   ## Contributing
   
-  
+  A bunch of people
 
   ## Tests
   
-  
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla porro fuga suscipit omnis, cum ratione illum impedit et, neque delectus ipsa ullam modi consequuntur eius earum provident animi in iusto veritatis accusamus laborum excepturi. Nesciunt corporis maxime cupiditate dignissimos officiis recusandae nisi vero doloremque ullam sed atque debitis eum excepturi voluptate incidunt, sapiente odit delectus?
   
   ## Questions
   
-  undefined
+  _If you have additional questions regarding this project please direct them to one of the following options:_
+  * My GitHub profile: [GaTech55](https://github.com/GaTech55/)
+  * My email address: [gatech55@gmail.com](mailto:gatech55@gmail.com)
   
+  ---
+  Copyright (c) 2020 GaTech55.

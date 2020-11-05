@@ -8,11 +8,6 @@ const questionsPrompt = () =>
   inquirer.prompt([
     {
       type: "input",
-      name: "fullName",
-      message: "What is your full name?",
-    },
-    {
-      type: "input",
       name: "title",
       message: "What is your project title?",
     },

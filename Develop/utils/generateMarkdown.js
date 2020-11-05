@@ -4,8 +4,6 @@ function generateMarkdown(data) {
 
   ![Github license](https://img.shields.io/badge/license-${data.license}-green.svg)
 
-  ${data.fullName}'s ${data.title} Project
-  
   ## Table of Contents
   
   - [Description](#description)
@@ -28,7 +26,7 @@ function generateMarkdown(data) {
   
   ## Installation
   
-  ${data.installation}
+  This application is covered under the ${data.installation} license. 
   
   ## Usage
   
@@ -48,8 +46,12 @@ function generateMarkdown(data) {
   
   ## Questions
   
-  ${data.questions}
+  _If you have additional questions regarding this project please direct them to one of the following options:_
+  * My GitHub profile: [${data.github}](https://github.com/${data.github}/)
+  * My email address: [${data.email}](mailto:${data.email})
   
+  ---
+  Copyright (c) 2020 ${data.github}.
 `;
 }
 
